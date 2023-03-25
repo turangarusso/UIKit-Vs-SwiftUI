@@ -10,7 +10,7 @@ UIKit Vs SwiftUI
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
+  <a href="#hello-case">Hello Case</a> •
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
 </p>
@@ -29,7 +29,7 @@ We will explore the difference between UIKit and SwiftUI with multiple projects
 
 
 
-## How To Use
+## Hello Case
 
 You can build the project using Xcode.
 
