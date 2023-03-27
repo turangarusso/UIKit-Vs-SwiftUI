@@ -281,7 +281,7 @@ Overall, while SwiftUI is becoming the preferred framework for building user int
 
 > **Note**
 
-> In Progress
+> In Progress, i will update the repo with more examples
 
 ## Requirements
 
