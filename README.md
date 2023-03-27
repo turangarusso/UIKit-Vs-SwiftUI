@@ -157,11 +157,10 @@ And this is the same view with one single file in made with SwiftUI:
 
 <details><summary><b>Show code</b></summary>
 
-```swift
 
-import SwiftUI
+    import SwiftUI
 
-struct SwiftUIVersionView: View {
+    struct SwiftUIVersionView: View {
     
     @State var text: String = ""
     @State var isOn: Bool = true
@@ -236,16 +235,16 @@ struct SwiftUIVersionView: View {
                     .padding()
             
             Spacer()
-        }
-    }
-}
+            }
+           }
+          }
 
-struct SwiftUIVersionView_Previews: PreviewProvider {
-    static var previews: some View {
-        SwiftUIVersionView()
-    }
-}
-```
+            struct SwiftUIVersionView_Previews: PreviewProvider {
+            static var previews: some View {
+            SwiftUIVersionView()
+            }
+           }
+
 </details>  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -293,11 +292,8 @@ class ViewController: UIViewController {
 
 <details><summary><b>Show code</b></summary>
 
-```swift
 
-import UIKit
-
-class TableViewController: UITableViewController {
+    class TableViewController: UITableViewController {
 
     override func viewDidLoad() {
         
@@ -347,7 +343,7 @@ class TableViewController: UITableViewController {
         return ViewController(coder: coder, aContact: contactToShow)
     }
 
-```
+    }
 
 </details>
 
