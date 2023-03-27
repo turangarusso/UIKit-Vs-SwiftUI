@@ -34,11 +34,11 @@ We will explore the difference between UIKit and SwiftUI with multiple projects
 
 ## Hello Case
 
-How to use:
+*How to use:*
 
-Clone the repository or download the source code.
-Open the project in Xcode.
-Build and run the app on a simulator or a physical device.
+- Clone the repository or download the source code.
+- Open the project in Xcode.
+- Build and run the app on a simulator or a physical device.
 
 The MVC (Model-View-Controller) pattern is a traditional software design pattern that has been used in UIKit, Apple's traditional UI framework for iOS apps. On the other hand, the MV pattern (Model-View) is a pattern that is commonly used in SwiftUI, Apple's newer UI framework for iOS apps.
 
