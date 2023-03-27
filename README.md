@@ -277,10 +277,17 @@ Although SwiftUI is a newer and more modern framework for building user interfac
 
 Overall, while SwiftUI is becoming the preferred framework for building user interfaces in Swift, UIKit still has many positive aspects that make it a suitable choice for certain projects and applications.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 > **Note**
 
 > In Progress
 
+## Requirements
+
+- iOS 13.0+
+- Xcode 12.0+
+- Swift 5.0+
 
 ## Credits
 
