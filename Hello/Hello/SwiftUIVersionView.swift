@@ -20,10 +20,10 @@ struct SwiftUIVersionView: View {
                 .font(.title)
                 .padding()
             
-                Image(systemName: "apple.logo")
-                    .resizable()
-                    .padding()
-                    .frame(width: 180, height: 220,alignment: .center)
+            Image(systemName: "apple.logo")
+                .resizable()
+                .padding()
+                .frame(width: 180, height: 220,alignment: .center)
             
             Section{
                 Text("Hello i'm giovanni and i want to learn how to use UIKit and the difference with swiftUI.")
@@ -34,23 +34,23 @@ struct SwiftUIVersionView: View {
             
             Spacer()
             
-            Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
+            Button("Button") {
                 
                 print("Button was tapped!")
                 
                 if isOn{
                     print("toggle is on")
-
+                    
                 } else{
                     print("toggle is off")
-
+                    
                 }
                 
             }.foregroundColor(.purple)
                 .padding()
-
+            
             HStack{
-                TextField("Enter text", text: $text) //search bar
+                TextField("Enter text", text: $text)
                     .padding(.leading, 5.0)
                     .padding(.horizontal, 5.0)
                     .accentColor(.black)
@@ -62,24 +62,24 @@ struct SwiftUIVersionView: View {
             .shadow(radius: 0.5)
             .padding(.horizontal)
             
-                            Toggle("Toggle", isOn: $isOn)
-                    .padding()
-                    .toggleStyle(SwitchToggleStyle(tint: Color.purple))
-                    
+            Toggle("Toggle", isOn: $isOn)
+                .padding()
+                .toggleStyle(SwitchToggleStyle(tint: Color.purple))
+            
             Slider(value: $value)
                 .padding(.horizontal)
                 .accentColor(.purple)
             
             Button(action: {
-                        // action to perform when button is tapped
-                    }) {
-                        Text("SwiftUI View")
-                            .foregroundColor(.black)
-                            .padding(10)
-                    }
-                    .background(Color.purple)
-                    .cornerRadius(10)
-                    .padding()
+                // action to perform when button is tapped
+            }) {
+                Text("SwiftUI View")
+                    .foregroundColor(.black)
+                    .padding(10)
+            }
+            .background(Color.purple)
+            .cornerRadius(10)
+            .padding()
             
             Spacer()
         }
