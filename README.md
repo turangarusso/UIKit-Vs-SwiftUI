@@ -96,6 +96,7 @@ An app can have more than one scene which mostly handles application interface a
 
 </details>
 
+
 To build the view I used the UIKit interface builder, which allows you to insert elements such as images, buttons, etc. and which allows you to easily customize each element as well as its position and padding
 
 <img width="1338" alt="Screenshot 2023-03-24 alle 23 58 52" src="https://user-images.githubusercontent.com/113531412/227658546-457e75cb-2757-43b4-8edc-af5fc381011c.png">
