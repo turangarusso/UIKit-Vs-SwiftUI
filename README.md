@@ -160,7 +160,7 @@ And this is the same view with one single file in made with SwiftUI:
 
 
     import SwiftUI
-
+    
     struct SwiftUIVersionView: View {
     
     @State var text: String = ""
