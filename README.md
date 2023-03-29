@@ -31,8 +31,6 @@ We will explore the difference between UIKit and SwiftUI with multiple projects
 * UIKit interface builder
 * UIKit Integrated with swiftUI
 
-
-
 ## Hello Case
 
 *How to use:*
@@ -414,6 +412,8 @@ For educational purposes
 ## License
 
 MIT
+
+![poster](https://user-images.githubusercontent.com/113531412/228586527-ea999022-d690-4836-adc8-8361f9781b74.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
