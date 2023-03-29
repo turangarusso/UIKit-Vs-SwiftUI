@@ -14,6 +14,7 @@ UIKit Vs SwiftUI
   <a href="#key-features">Key Features</a> •
   <a href="#hello-case">Hello Case</a> •
   <a href="#contacts-case">Contacts Case</a> •
+  <a href="#auto-layout">Auto Layout</a> •
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
 </p>
@@ -367,6 +368,29 @@ Although SwiftUI is a newer and more modern framework for building user interfac
 * Interface Builder: With UIKit you can manage the padding of the objects quickly, modify them without writing code, and use autolayout.
 
 Overall, while SwiftUI is becoming the preferred framework for building user interfaces in Swift, UIKit still has many positive aspects that make it a suitable choice for certain projects and applications.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Auto Layout
+
+When you build an app, you want to make sure it looks good on every iOS device. Xcode includes a powerful system called Auto Layout which makes it easy to build intricate interfaces that work on various screen sizes.
+
+Auto Layout relies on constraints, or rules, to dynamically calculate the size and position of all views in a view hierarchy. So your interfaces will look and work the same—no matter what device your users have in their hands or how they’re holding it.
+
+At the right of the bottom button bar is a set of tools for creating and managing constraints. To lock the button in the center of the screen, you’ll create two constraints that define the position of the button.
+
+<img width="1342" alt="Screenshot 2023-03-29 alle 11 55 51" src="https://user-images.githubusercontent.com/113531412/228510653-9d9748a3-6d20-4f35-baa7-c9c1e693b761.png">
+
+In this way the button will have the same position in every device, iphone and tablet, with all orientation.
+
+Now assume you want the height of the button to always be 60, no matter the screen size or orientation of the device. Click the Add New Constraints button , the button immediately to the right of the Align tool.
+The popover displays a list of text fields and checkboxes to help you add constraints. Select the Height checkbox and adjust the value to 60. Click “Add 1 Constraint” to create the height constraint.
+
+<img width="1342" alt="Screenshot 2023-03-29 alle 11 56 48" src="https://user-images.githubusercontent.com/113531412/228511236-35997e6c-414a-483f-8b50-4d8bb6957a0c.png">
+
+Finally i've create three different labels, two with the auto layout, and as you can see the last one will have some problems when the device change, or the orientation.
+
+<img width="1342" alt="Screenshot 2023-03-29 alle 12 24 19" src="https://user-images.githubusercontent.com/113531412/228511800-d28cb5b5-d0e3-4cc5-92d4-8315644d11d0.png">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
