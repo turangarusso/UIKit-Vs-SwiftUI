@@ -79,10 +79,10 @@ An app can have more than one scene which mostly handles application interface a
 
 <details><summary><b>Show code</b></summary>
 
-```swift
-import UIKit
 
-class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+    import UIKit
+
+    class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
@@ -93,7 +93,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
     }
-```
+
 </details>
 
 To build the view I used the UIKit interface builder, which allows you to insert elements such as images, buttons, etc. and which allows you to easily customize each element as well as its position and padding
